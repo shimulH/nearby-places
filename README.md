@@ -72,9 +72,9 @@ src
 Easy to access files, less source mapping for webpack. All the files of the same feature/screens stay together, it is very helpful during the development process. In store all the folder mimics the name of screens so that we can easily find the related files of the same features.
 
 ## Trade-off / Future Work 
-- Feature : Feature like directions from cuurrent location to destaniation, detailed view of the restaurent, custom pin etc could be added.
+- Feature : Feature like directions from current location to destination, detailed view of the restaurant, custom pin etc could be added.
 - Error Handling : Write methods to handle any type of error from the client.
-- Test : Component/end-to-end testing could be added.
+- Test : Component/integration testing could be added.
 - Ui : More colorful and attractive ui
 
 ## Contributing
