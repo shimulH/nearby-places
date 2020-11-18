@@ -66,7 +66,7 @@ function _Map({ venues, getVenues }) {
         />
         <div className={classes.recommned}>
           <Typography className={classes.title} variant="subtitle1">
-            These are some popular restaurants
+            Want find some cool places around you?
           </Typography>
           <Button
             onClick={() => {
@@ -75,7 +75,7 @@ function _Map({ venues, getVenues }) {
             }}
             className={classes.button}
           >
-            Pick One
+            recommend me one
           </Button>
           <Button
             onClick={() => {

@@ -5,8 +5,8 @@ import { store } from "./store";
 import theme from "./theme";
 import Route from "./routes";
 import CustomSnackbar from "./components/CustomSnackbar";
-// import LogRocket from "logrocket";
-// LogRocket.init("zfb2gl/locate-restaurant");
+import LogRocket from "logrocket";
+LogRocket.init("zfb2gl/locate-restaurant");
 
 function App() {
   return (
