@@ -1,11 +1,12 @@
 import "./App.css";
 import { Provider } from "react-redux";
 import { ThemeProvider } from "@material-ui/core/styles";
-import LogRocket from "logrocket";
 import { store } from "./store";
 import theme from "./theme";
 import Route from "./routes";
-LogRocket.init("zfb2gl/locate-restaurant");
+import CustomSnackbar from "./components/CustomSnackbar";
+// import LogRocket from "logrocket";
+// LogRocket.init("zfb2gl/locate-restaurant");
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <div className="App">
           <Route />
         </div>
+        <CustomSnackbar />
       </ThemeProvider>
     </Provider>
   );
