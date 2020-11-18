@@ -23,6 +23,8 @@ To run:
 - Material-UI : Faster development, popular and well documented
 - LogRocket : Popular, includes necessary features for production log and track the projects
 
+This project also includes `axios` which is more customizable and gives all the methods to work with the api requests. This project has centralised error handling method for apis using `snacbar`. We can write methods for handling all types of error and only show them (using `snackbar`) to the user when necessary. 
+
 ## Structure
 
 ```
