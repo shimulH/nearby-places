@@ -2,23 +2,25 @@
 
 Foobar is a Python library for dealing with word pluralization.
 
+## Stack
+
+- React.js
+- Redux (Saga)
+- Material-UI
+
+
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Setup:
 
-```bash
-pip install foobar
-```
+1. `yarn/yarn install`
 
-## Usage
 
-```python
-import foobar
+To run:
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+1. `yarn start`
+2. Open [http://localhost:3000](http://localhost:3000)
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
