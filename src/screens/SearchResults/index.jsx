@@ -42,11 +42,13 @@ export default function SearchRestaurant({
             <Grid item>
               <h5 className={classes.dropdownTitle}>{option.venue?.name}</h5>
             </Grid>
-            <Grid item>
-              <label className={classes.dropdownSubtitle}>
-                {option.venue?.location.address},{option.venue?.location.city}
-              </label>
-            </Grid>
+            {option.venue?.location.address?.length > 0 && (
+              <Grid item>
+                <label className={classes.dropdownSubtitle}>
+                  {option.venue?.location.address},{option.venue?.location.city}
+                </label>
+              </Grid>
+            )}
             <Grid item className={classes.dropdownSubtitle}>
               <RoomIcon fontSize="small" color="primary" />
               <label>{option.venue?.location.distance / 1000} km</label>
