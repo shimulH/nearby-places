@@ -1,5 +1,6 @@
 import palette from "./palette";
 
+// eslint-disable-next-line
 export default {
   h1: {
     color: palette.text.primary,

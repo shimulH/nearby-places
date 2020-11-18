@@ -3,14 +3,15 @@ import { colors } from "@material-ui/core";
 const white = "#FFFFFF";
 const black = "#000000";
 
+// eslint-disable-next-line
 export default {
   black,
   white,
   primary: {
     contrastText: white,
-    dark: colors.blue[900],
-    main: colors.blue.A400,
-    light: colors.blue.A400,
+    dark: colors.pink[900],
+    main: colors.pink.A400,
+    light: colors.pink.A700,
   },
   secondary: {
     contrastText: white,
@@ -43,7 +44,7 @@ export default {
     light: colors.red[400],
   },
   text: {
-    primary: colors.blueGrey[800],
+    primary: colors.blueGrey[700],
     secondary: colors.blueGrey[600],
     link: colors.blue[600],
   },
